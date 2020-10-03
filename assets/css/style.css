@@ -907,26 +907,12 @@ section {
 }
 /* Facts Section
 --------------------------------*/
-@media (min-width:481px){
 #facts {
-  
+  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
 }
-        
-        }
-        @media (max-width:480px)
-    {
-#facts {
-  background: url("../img/fubg.png") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-    
-}
-
 
 #facts::before {
   content: '';
@@ -935,7 +921,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  
+  background: rgba(255, 255, 255, 0.88);
   z-index: 9;
 }
 
@@ -1137,31 +1123,11 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-
-@media (min-width:481px)
-    {
-        .startups {
+.startups {
     display: flex;
     justify-content: center;
     align-content: center;
-  background-size: cover;
-    
 }
-        
-        }
-        @media (max-width:480px)
-    {
-        .startups {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background: url("../img/fubg.png") center top no-repeat fixed;
-  background-size: cover;
-    
-}
-
-        }
-
 .startups .carousel-caption {
     color: #000;
     position: absolute;
