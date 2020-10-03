@@ -24,12 +24,28 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="loader/css/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+    <script>
+    
+        window.onload=function ()
+        { setTimeout(rt,3000);
+         function rt(){
+            var tyui=document.getElementById("preloader");
+            tyui.style.display="none";
+         }
+        }
+    
+    
+    </script>
 </head>
 
 <body>
+    <div id="preloader" style="display: block;" class="contain">
+        <img src="loader/gif-preloader-11-min.gif" style="position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);height: 250px;width: 334px" class="img-fluid">
+     </div>
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">
