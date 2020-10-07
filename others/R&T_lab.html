@@ -42,8 +42,14 @@
   </script>
   <style>
     #intro {
-      background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../assets/img/space.jpg) top center;
+      background: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url(../assets/img/space.jpg) top center;
       background-size: cover;
+      background-attachment: fixed;
+      height: 70vh;
+    }
+
+    .article {
+      margin-top: -6%;
     }
   </style>
 </head>
@@ -71,34 +77,35 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>TBI, VSSUT ASSIST</span></a></h1>
+        <h1 class="text-light"><a href="../index.html"><span>TBI, VSSUT ASSIST</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#startups">Start&#45;Ups</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="#team">Team</a></li>
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#startups">Start&#45;Ups</a></li>
+          <li><a href="../index.html#partners">Partners</a></li>
+          <li><a href="../index.html#team">Team</a></li>
           <!--          <li><a href="blog.html">Activities</a></li>-->
           <li class="drop-down"><a href="">Projects</a>
             <ul>
-              <li><a href="./others/agro-tech.html">Agro&#45;tech</a></li>
-              <li><a href="./others/healthcare.html">Healthcare</a></li>
-              <li><a href="./others/iot.html">IoT</a></li>
-              <li><a href="./others/space.html">Space</a></li>
+              <li><a href="./agro-tech.html">Agro&#45;tech</a></li>
+              <li><a href="./healthcare.html">Healthcare</a></li>
+              <li><a href="./iot.html">IoT</a></li>
+              <li><a href="./space.html">Space</a></li>
             </ul>
           </li>
           <li class="drop-down"><a href="">Labs</a>
             <ul>
-              <li><a href="./others/bio-process.html">Bio-Process Lab</a></li>
-              <li><a href="./others/R&T_lab.html">R&D Lab</a></li>
+              <li><a href="./bio-process.html">Bio-Process Lab</a></li>
+              <li><a href="./R&T_lab.html">R&D Lab</a></li>
             </ul>
           </li>
-          <li style="background-color: #ff4500;transform: translateX(50%);"><a href="#contact">Contact</a></li>
+          <li class="main-button" style="background-color: #1e90ff;transform: translateX(50%);"><a
+              style="color: antiquewhite;" href="../index.html#contact">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -114,7 +121,22 @@
   </section><!-- End Intro Section -->
 
 
-
+  <section class="article">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h2 class="display-4 text-center" style="letter-spacing: 1px;">R&D Lab</h2>
+        <p class="lead text-center">
+          The efficacious R&D Lab facility provides platform for numerous R&D activities, with the vision to seek
+          interest among students towards research and understanding technical instruments. It provides analytical
+          instruments and facilities, which are freely accessed by students under the guidance of expert teachers and
+          scientific personals. The budding start-ups are provided new and advanced instruments, along with efficient
+          training and mentorship. Rendering technical support and promoting research culture has become its motto since
+          it was established. Attired with resources and instruments, it has become a favourable perk for the growing
+          start-ups.
+        </p>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -128,7 +150,7 @@
 
           <div class="col-lg-6 col-md-6 footer-contact" style="text-align: center;justify-content: center;">
             <a href="https://www.vssut.ac.in">
-              <h3 style="color: #010483;">VSSUT, Burla</h3>
+              <h3 style="color: #1e90ff;">VSSUT, Burla</h3>
             </a>
             <p>
               Burla Road <br>
